@@ -7,7 +7,7 @@ import org.junit.Test;
     @Test
     public void testPasswordLength() {
         PasswordValidator pv = new PasswordValidator();
-        Assert.assertEquals(true, pv.isValid("Abc12"));
+        Assert.assertEquals(true, pv.isValid("ABC12"));
 
     }
 }
