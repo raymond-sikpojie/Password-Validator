@@ -1,11 +1,11 @@
 package com.password;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class TestPassword {
+ public class PasswordValidatorTest {
     @Test
-    void TestPasswordLength() {
+    public void testPasswordLength() {
         PasswordValidator pv = new PasswordValidator();
         Assert.assertEquals(true, pv.isValid("Abc12"));
 
